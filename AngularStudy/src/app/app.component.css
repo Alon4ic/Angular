@@ -1,0 +1,21 @@
+nav {
+  display: flex;
+  justify-content: start;
+}
+a {
+  padding: 20px 30px;
+  background: #ccc;
+  color: #000;
+  margin-right: 5px;
+  font-size: 24px;
+  text-decoration: none;
+  border: 1px solid #3f2f2f;
+  border-radius: 5px;
+}
+a:hover {
+  background: #db7b7b;
+}
+
+nav .active {
+  background: #E03237
+}
